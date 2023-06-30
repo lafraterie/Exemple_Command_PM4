@@ -11,6 +11,6 @@ class Main extends PluginBase implements Listener {
         $this->getLogger()->info("Plugin Exemple est lancé !");
         self::$instance = $this;
 
-        $this->getServer()->getCommandMap()->register("ping", new ping());  // Enregistrer la commande dans la liste.
+        $this->getServer()->getCommandMap()->register("test", new test));  // Enregistrer la commande dans la liste.
     }
 }
