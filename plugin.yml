@@ -1,0 +1,5 @@
+name: Exemple               #Nom du plugin
+author: Valres              #Auteur du plugin
+version: 1.0.0              #Version du plugin
+api: 4.0.0                  #Version API PocketMine
+main: Exemple\Valres\Main   #Path du Main.php
