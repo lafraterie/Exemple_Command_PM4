@@ -19,7 +19,7 @@ class test extends Command{
     public function execute(CommandSender $sender, string $commandLabel, array $args) //Quand le joueur ($sender) effectue la commande
     {
         if ($sender instanceof Player){
-            if ($sender->hasPermission("exemple.cmd") || Server::getInstance()->isOp($sender->getName())) { //Vérifie si il a la perm et/ou est OP
+            if ($sender->hasPermission("test.cmd") || Server::getInstance()->isOp($sender->getName())) { //Vérifie si il a la perm et/ou est OP
                 // Code a effectuer si tout est réunis :
                 return $sender->sendMessage("Cool ! Un commande de test !");
             }
